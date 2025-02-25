@@ -1,4 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
+
+//layouts all elements in this layout is no longer effected by dynamic rendering
+export const experimental_ppr = true;
  
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
